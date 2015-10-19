@@ -49,7 +49,7 @@ class Prefork
         }
     }
 
-    private function _signalHandler(&$sig)
+    private function _signalHandler($sig)
     {
         $this->signal_received = $sig;
     }
